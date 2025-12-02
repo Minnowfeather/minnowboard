@@ -1,16 +1,16 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
       "Default"
     ],
     "hidden_nets": [
       "",
-      "ButtonData",
-      "LightData",
-      "EncData"
+      "Net-(A1-GPIO8)",
+      "unconnected-(A1-ADC_VREF-Pad35)",
+      "Net-(A1-GPIO6)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -23,17 +23,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
-      "vias": true,
-      "zones": true
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",

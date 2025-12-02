@@ -521,7 +521,9 @@
     },
     "net_colors": {
       "5V": "rgb(255, 98, 85)",
-      "Ground": "rgb(150, 75, 0)"
+      "GND": "rgb(150, 75, 0)",
+      "Ground": "rgb(150, 75, 0)",
+      "Net-(A1-GPIO18)": "rgb(255, 98, 85)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
