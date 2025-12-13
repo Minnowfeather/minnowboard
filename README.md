@@ -1,10 +1,9 @@
 # DJDao PCB Drop-in Replacement
 
-![1753164469762](image/README/1753164469762.png)
+![1753164469762](image/v3_front.png)
 
-![1753164490265](image/README/1753164490265.png)
+![1753164490265](image/v3_back.png)
 
-<h1> Caution! This version is not yet complete! </h1>
 This project aims to be a drop-in replacement for DJDao SVSE5 and SVRE9 PCBs. Currently only supports potentiometers and DJDao-style wiring.
 
 <h1>Current version: 3.0</h1>
@@ -13,19 +12,25 @@ This project aims to be a drop-in replacement for DJDao SVSE5 and SVRE9 PCBs. Cu
 
 | Button | Data | LED |
 | ------ | ---- | --- |
-| BT-A   | 4    | 5   |
-| BT-B   | 6    | 7   |
-| BT-C   | 8    | 9   |
-| BT-D   | 10   | 11  |
-| FX-L   | 12   | 13  |
-| FX-R   | 14   | 15  |
-| Start  | 20   | 21  |
-| VOL-L  | 0    | N/A |
-| VOL-R  | 2    | N/A |
+| BT-A   | 0    | 10   |
+| BT-B   | 2    | 8   |
+| BT-C   | 4    | 13   |
+| BT-D   | 6   | 11  |
+| FX-L   | 1   | 9  |
+| FX-R   | 14   | 12  |
+| Start  | 3   | 7  |
+
+# Knob assignments
+| Knob | Pot | Enc A | Enc B |
+| ------ | --- | --- | ---- |
+| VOL-L | 16 | 16 | 17 | 
+| VOL-R  | 17 | 18 | 19 |
+
+Flick the switch (pin 20) to toggle between Potentiometer and Encoder mode.
 
 # Code
 
-Use a modifed version of [SpeedyPotato's code](https://github.com/speedypotato/Pico-Game-Controller/).
+In progress
 
 # Known Issues
 
@@ -40,12 +45,10 @@ __V2__
 - Upside-down mounting might require extension cables for each button
 
 __V3.0__
-- Can only supply 3.3V to LEDs. 5V support to be added later
-- Untested. 
+- Possible stability issues with potentiometers
+- Untested asf
+- Transistor too close to button? Possible melting?
 
 # ToDO
 
-- Add quadrature encoder support
 - Add firmware code
-- Figure out how to drive 5V LEDs
-- LED strip support
