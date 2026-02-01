@@ -51,7 +51,19 @@
       "START LED",
       "AGND",
       "Net-(J8-Pin_2)",
-      "Net-(J9-Pin_2)"
+      "Net-(J9-Pin_2)",
+      "Net-(A1-USB_DM)",
+      "unconnected-(A1-SWDIO-PadD3)",
+      "unconnected-(A1-~{BOOTSEL}-PadTP6)",
+      "unconnected-(A1-SWCLK-PadD1)",
+      "unconnected-(A1-USB_GND-PadTP1)",
+      "unconnected-(A1-~{SMPS_PS}-PadTP4)",
+      "unconnected-(A1-LED_OUT-PadTP5)",
+      "Net-(A1-USB_DP)",
+      "Net-(USB1-CC1)",
+      "Net-(USB1-CC2)",
+      "unconnected-(USB1-SBU1-Pad9)",
+      "unconnected-(USB1-SBU2-Pad3)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -64,17 +76,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
-      "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
       "text": true,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
