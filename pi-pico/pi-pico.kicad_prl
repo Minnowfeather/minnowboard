@@ -106,7 +106,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "sdvx pro micro.kicad_prl",
+    "filename": "pi-pico.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sdvx pro micro.kicad_pro",
+    "filename": "pi-pico.kicad_pro",
     "version": 3
   },
   "net_settings": {
