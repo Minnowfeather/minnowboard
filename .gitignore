@@ -1,4 +1,4 @@
 *-backups/
-gerber_to_order/*
+*/gerber_to_order/*
 *.lck
 fp-info-cache
